@@ -1,6 +1,7 @@
 package com.EnderDev.thedungeonspatch.item;
 
 import com.EnderDev.thedungeonspatch.TheDungeonsPatch;
+import com.EnderDev.thedungeonspatch.item.custom.NightmareBiteWeapon;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -14,6 +15,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> TEST = ITEMS.register("t_letter",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TLHOE_WEAPONS)));
+    public static final RegistryObject<Item> NIGHTMARE_BITE = ITEMS.register("nightmare_bite",
+            () -> new NightmareBiteWeapon(new Item.Properties().tab(ModCreativeModeTab.TLHOE_WEAPONS).stacksTo(2)));
 
 
 

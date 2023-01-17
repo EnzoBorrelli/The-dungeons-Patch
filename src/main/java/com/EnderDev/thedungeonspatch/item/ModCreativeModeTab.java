@@ -1,5 +1,6 @@
 package com.EnderDev.thedungeonspatch.item;
 
+import com.EnderDev.thedungeonspatch.block.ModBlocks;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 
@@ -10,10 +11,10 @@ public class ModCreativeModeTab {
             return new ItemStack(ModItems.TEST.get());
         }
     };
-    public static final CreativeModeTab TLHOE_ARMOURS = new CreativeModeTab("heart_armours") {
+    public static final CreativeModeTab TLHOE_BLOCKS = new CreativeModeTab("heart_blocks") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ModItems.TEST.get());
+            return new ItemStack(ModBlocks.EMERALD_POT.get());
         }
     };
     public static final CreativeModeTab TLHOE_MOBS = new CreativeModeTab("heart_mobs") {

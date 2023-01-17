@@ -2,6 +2,7 @@
   "item.thedungeonspatch.t_letter": "T letter",
   "item.thedungeonspatch.nightmare_bite": "Nightmare's Bite",
   "itemGroup.heart_weapons": "Last Heart: Weapons",
-  "itemGroup.heart_armours": "Last Heart: Equipment",
-  "itemGroup.heart_mobs": "Last Heart: Mobs"
+  "itemGroup.heart_blocks": "Last Heart: Blocks",
+  "itemGroup.heart_mobs": "Last Heart: Mobs",
+  "block.thedungeonspatch.emerald_pot": "Emerald pot"
 }

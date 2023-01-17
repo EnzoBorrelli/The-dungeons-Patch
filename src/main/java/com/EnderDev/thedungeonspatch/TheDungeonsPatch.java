@@ -1,5 +1,6 @@
 package com.EnderDev.thedungeonspatch;
 
+import com.EnderDev.thedungeonspatch.block.ModBlocks;
 import com.EnderDev.thedungeonspatch.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.api.distmarker.Dist;
@@ -23,6 +24,8 @@ public class TheDungeonsPatch
     public TheDungeonsPatch() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModItems.register(modEventBus);
+
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

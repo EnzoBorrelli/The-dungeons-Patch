@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "minecraft:item/diamond_sword",
+	"parent": "minecraft:item/handheld",
 	"textures": {
 		"0": "thedungeonspatch:item/diamond_sword",
 		"particle": "thedungeonspatch:item/diamond_sword"

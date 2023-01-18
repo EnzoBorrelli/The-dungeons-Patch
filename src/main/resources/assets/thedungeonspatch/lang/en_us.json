@@ -1,8 +1,21 @@
-{
+{ "//___ITEMS___": "",
   "item.thedungeonspatch.t_letter": "T letter",
   "item.thedungeonspatch.nightmare_bite": "Nightmare's Bite",
+
+  "//___TABS___": "",
   "itemGroup.heart_weapons": "Last Heart: Weapons",
   "itemGroup.heart_blocks": "Last Heart: Blocks",
   "itemGroup.heart_mobs": "Last Heart: Mobs",
-  "block.thedungeonspatch.emerald_pot": "Emerald pot"
+
+  "//___BLOCKS___": "",
+  "block.thedungeonspatch.emerald_pot": "Emerald pot",
+
+  "//___TOOLTIPS___": "",
+  "tooltip.thedungeonspatch.nightmare_bite.tooltip.shift": "this is a test, nothing more",
+  "tooltip.thedungeonspatch.nightmare_bite.tooltip":"press SHIFT for more information",
+
+  "//___KEYS___": "",
+  "key.category.thedungeonspatch.test": "test area",
+  "key.thedungeonspatch.test.try": "try key",
+  "key.thedungeonspatch.try_key": "key tryed!"
 }
